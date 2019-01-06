@@ -254,15 +254,29 @@ int main()
 //	system("pause");
 //	return 0;
 //}
+//#include <stdio.h>
+//#include <stdlib.h>
+//int main() 
+//{
+//	int *p;
+//	int a = 10;
+//	p = &a;
+//	printf("%d", *p);
+//	system("pause");
+//	return 0;
+//}
 #include <stdio.h>
 #include <stdlib.h>
-int main() 
+int main()
 {
-	int *p;
-	int a = 10;
-	p = &a;
-	printf("%d", *p);
+	int i = 1;
+	int n = 3;
+	int sum = 1;
+	for (i = 1; i <= n; i++)
+	{
+		sum = i * sum;
+	}
+	printf("%d", sum);
 	system("pause");
 	return 0;
 }
-

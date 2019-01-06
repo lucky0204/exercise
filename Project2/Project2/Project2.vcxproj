@@ -116,6 +116,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="shutdown.c" />
+    <ClCompile Include="乘法表1.c" />
+    <ClCompile Include="乘法表2.c" />
+    <ClCompile Include="交换.c" />
+    <ClCompile Include="交换2.c" />
+    <ClCompile Include="数组排序.c" />
+    <ClCompile Include="素数.c" />
+    <ClCompile Include="闰年.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
