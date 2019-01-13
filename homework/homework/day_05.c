@@ -89,3 +89,26 @@
 //	system("pause");
 //	return 0;
 //}
+//#include <stdio.h>
+//#include <stdlib.h>
+//int fib(int in)
+//{
+//	if (in <= 2)
+//	{
+//		return 1;
+//	}
+//	else
+//	{
+//		return fib(in - 1) + fib(in - 2);
+//	}
+//}
+//int main()
+//{
+//	int input = 0;
+//	scanf("%d", &input);
+//	int ret = fib(input);
+//	printf("第%d个斐波那切数字为:%d\n", input, ret);
+//	system("pause");
+//	return 0;
+//}
+

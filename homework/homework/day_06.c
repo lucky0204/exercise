@@ -102,32 +102,33 @@
 //	system("pause");
 //	return 0;
 //}
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-Judge_Prm(int x)
-{
-	int count = 0;
-	for (int i = 2; i <= sqrt(x); i++)
-	{
-		if(x%i==0)
-		count++;
-	}
-	if (count == 0)
-	{
-		printf("%d是素数",x);
-	}
-	else
-	{
-		printf("不是素数！");
-	}
-}
-int main()
-{	
-	int input = 0;
-	scanf("%d", &input);
-	Judge_Prm(input);
-	system("pause");
-	return 0;
-}
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <math.h>
+//Judge_Prm(int x)//判断是否为素数
+//{
+//	int count = 0;
+//	for (int i = 2; i <= sqrt(x); i++)
+//	{
+//		if(x%i==0)
+//		count++;
+//	}
+//	if (count == 0)
+//	{
+//		printf("%d是素数",x);
+//	}
+//	else
+//	{
+//		printf("不是素数！");
+//	}
+//}
+//int main()
+//{	
+//	int input = 0;
+//	scanf("%d", &input);
+//	Judge_Prm(input);
+//	system("pause");
+//	return 0;
+//}
+
 
