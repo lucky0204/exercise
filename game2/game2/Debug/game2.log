@@ -1,0 +1,3 @@
+﻿  game.c
+d:\卢凯煜程序员\source\repos\game2\game2\game.c(130): warning C4715: “check_win”: 不是所有的控件路径都返回值
+  game2.vcxproj -> D:\卢凯煜程序员\source\repos\game2\Debug\game2.exe
